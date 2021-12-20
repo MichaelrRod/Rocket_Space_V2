@@ -1,0 +1,144 @@
+
+body{
+	background: url("imagens/fundo3.png");
+}
+
+
+.cabecalho-principal{
+	position: relative;
+	width: 100%;
+	
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+.cabecalho-principal h1{
+	color: #C78C18;
+	font-weight: bold;
+	font-size: 30px;
+	text-decoration: none;
+	text-shadow: 2px 2px 5px rgba(255,255,255,0.2);
+	margin-top: 50px;
+	padding: 30px;
+
+	
+}
+
+.jogo{
+	position: relative;
+	display: inline-block;
+	width: 45%;
+	height: 600px;
+	border: solid 3px white;
+	margin-top: 50px;
+	margin-right: 10px;
+	float: left;
+}
+
+.como-jogar{
+	text-align: center;
+	position: absolute;
+	display: inline-block;
+	width: 45%;
+	height: 600;
+	
+	margin-top: 50px;
+}
+
+.como-jogar h1{
+	font-size: 30px;
+	color: #C78C18;
+	font-weight: bold;
+	text-shadow: 2px 2px 5px rgba(255,255,255,0.2);
+	text-transform: uppercase;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	clear: left;
+}
+
+.como-jogar p{
+	font-size: 22px;
+	color: white;
+	margin-left: 10px;
+}
+
+.satisfacao{
+	position: relative;
+	display: inline-block;
+	width: 45%;
+	height: 600;
+	
+	margin-top: 350px;
+	clear: left;
+}
+
+
+.satisfacao h1{
+	font-size: 30px;
+	color: #C78C18;
+	font-weight: bold;
+	text-shadow: 2px 2px 5px rgba(255,255,255,0.2);
+	text-transform: uppercase;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.satisfacao p{
+	font-size: 22px;
+	color: white;
+	margin-left: 10px;
+	text-align: center;
+}
+
+.avaliacao{
+	text-align: center;
+	color: white;
+	padding: 5px;
+}
+
+.avaliacao input{
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+
+
+#enviar-form{	
+	width: 300px;
+	height: 30px;
+	margin: 30px 0 0;
+	background: #C78C19;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;	
+	transition: 1s all;
+	cursor: pointer;
+}
+
+#enviar-form:hover{
+	background: brown;
+	transform: scale(1.1);
+}
+
+
+footer{
+	position: relative;
+	text-align: center;
+	box-sizing: border-box;	
+	padding: 40px 0;
+	margin: 10px 0 0;
+}
+
+footer img{
+	width: 20%;
+}
+
+.copyright{
+	font-weight: bold;
+	font-size: 13px;
+	color: white;
+	margin-top: 20px;
+}
