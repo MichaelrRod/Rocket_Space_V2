@@ -87,16 +87,16 @@
 				<script type="text/javascript">
 					function funcao1(){				
 					
-					if (confirm("Confirma Envio do Formulário?"))
-					  {
-					  alert("Formulário Enviado!");
-					  return true;
-					  }
-					else
-					  {
-					  alert("Cancelado!");
-					  return false;
-					  }
+						if (confirm("Confirma Envio do Formulário?"))
+						  {
+						  alert("Formulário Enviado!");
+						  return true;
+						  }
+						else
+						  {
+						  alert("Cancelado!");
+						  return false;
+						  }
 					
 					}
 				</script>	
@@ -106,7 +106,7 @@
 						var nomePessoa = document.forms["avaliacao"]["nome"].value
 						var emailPessoa = document.forms["avaliacao"]["mail"].value
 
-						if (nomePessoa == "") {
+						if (nomePessoa == ""){
 				            alert("Favor Preencher Nome e E-mail");
 				            return false;     
 				        }
