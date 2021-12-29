@@ -54,10 +54,10 @@ nav a:hover{
 
 .titulo-principal{
 	text-align: center;		
-	border: solid 2px white;
+	border: solid 2px #8b8c89;
 	margin: 10px 30px;
 	padding: 5px 30px 20px 30px;
-	background: rgba(29,53,87,0.5);
+	background: rgba(29,53,87,0.8);
 }
 
 .titulo-principal h1{
@@ -119,15 +119,14 @@ footer img{
 	font-size: 13px;
 	color: white;
 	margin-top: 20px;
-	text-shadow: 2px 2px 5px rgba(255,255,255,0.4)
 }
 
 .equipe{
 	text-align: center;		
-	border: solid 2px white;
+	border: solid 2px #8b8c89;
 	margin: 10px 30px;
 	padding: 5px 30px 20px 30px;
-	background: rgba(29,53,87,0.5);
+	background: rgba(29,53,87,0.8);
 }
 
 .equipe img{
