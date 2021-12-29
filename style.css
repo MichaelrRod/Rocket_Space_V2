@@ -16,17 +16,18 @@ body{
 .cabecalho-principal h1{
 	
 	text-align: left;
+	margin-left: 15%;
 }
 
 nav{
 	position: absolute;
-	top: 110px;
+	top: 45%;
 	right: 20%;
 }
 
 nav li{
 	display: inline;
-	margin-left: 15px;
+	margin-left: 40px;
 }
 
 nav a{
